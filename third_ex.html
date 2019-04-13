@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head lang="az">
+    <meta charset="utf-8"/>
+    <title> third example</title>
+    <link rel="stylesheet" href="css/style3.css"/>
+    <link rel=stylesheet href="css/reset.css"/>
+    </head>
+<body>
+    <table width="200" cellspacing="0" cellpadding="0" class="my_table">
+        <form action="index.html" method="post" enctype="multipart/form-data">
+   <thead>
+    <tr align="center" class="head" >
+       <th colspan="2"  >Forms</th>
+       </tr>
+    </thead>
+   <tbody>
+       <tr class="head2">
+           <td >Names</td>
+           <td >Instructions</td>
+       </tr>
+        <tr class="name">
+       <td>Name </td>
+       <td><input type="text" name="ad" class="text" /></td>
+       </tr>
+       <tr class="name2">
+       <td>Email</td>
+       <td><input type="email" name="email" class="text"/></td>
+       </tr>
+       <tr class="name">
+       <td >Password</td>
+       <th><input type="password" name="parol" class="text"/></th>
+       </tr> 
+       <tr class="name2" >
+       <td >Age </td>
+       <td><input type="number" name="yas" min="0" max="100" class="text" /> </td>
+       </tr>
+       <tr class="name">
+       <td >Tel </td>
+       <td><input type="tel" name="tel" class="text"/></td>
+       </tr>
+       <tr class="name2">
+       <td >Color </td>
+       <td><input type="color" name="color" > </td>
+       </tr>
+       <tr class="name">
+       <td >Gender </td>
+       <td>Male: <input type="radio" name="gender" value="1" />
+		Female: <input type="radio" name="gender" value="2" />
+</td>
+       </tr>
+       <tr class="name2">
+       <td >Languages </td>
+       <td>
+        Az: <input type="checkbox" name="lang[1]" value="1" />
+		En: <input type="checkbox" name="lang[2]" value="2" />
+		Ru: <input type="checkbox" name="lang[3]" value="3" /></td>
+       </tr>
+       <tr class="name">
+       <td >Birthday </td>
+       <td><input type="datetime-local" name="birthday" class="text" /></td>
+       </tr>
+       <tr class="name2">
+       <td >About </td>
+       <td ><textarea name="about" cols="25" rows="5" class="text"></textarea></td>
+       </tr>
+       <tr class="name">
+       <td >Search </td>
+       <td><input type="search" name="axtar" list="user_list" class="text" /> 
+			<datalist id="user_list" >
+				<option value="Sara" />
+				<option value="Cavahir" />
+				<option value="Mahirə" />
+				<option value="İbrahim" />
+				<option value="Aydın" />
+			</datalist></td>
+       </tr>
+       <tr class="name2">
+       <td >City </td>
+       <td><select name="city" class="text">
+			<option value="1">Baki</option>
+			<option value="2">Gence</option>
+			<option value="3">Sumqayit</option>
+		</select></td>
+       </tr>
+       
+        </tbody>
+    <tfoot>
+        <tr align="center" class="head">
+        <td colspan="2">////............////</td>
+        
+        </tr>
+        
+        </tfoot>
+    </form>
+    </table>
+
+    </body>
+</html>
