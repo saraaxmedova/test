@@ -1,0 +1,84 @@
+/*
+p{
+	color: brown;
+}
+*/
+
+#my_p{
+	color: #fff;
+	background-color: red;
+}
+
+.my_p2{
+	color: #000 !important;
+}
+
+.my_p{
+	color: #fff !important;
+	background-color: green;
+}
+
+/**/
+/*.user_list li{
+	color: green;
+}
+
+.user_list li:first-child{
+	color: red;
+}
+
+.user_list li:last-child{
+	color: brown;
+}
+
+.user_list li:nth-child(3){
+	color: yellow;
+}*/
+
+/*.user_list li:nth-child(odd){
+	color: green;
+}
+
+.user_list li:nth-child(even){
+	color: brown;
+}*/
+
+/*.user_list li{
+	color: green;
+}
+
+.user_list li:not(:last-child){
+	border-bottom: 1px solid red;
+}
+
+.user_list li:nth-child(3n+3){
+	color: yellow;
+}*/
+
+.gender_btn:checked + span{
+	color: green;
+}
+
+/*
+.gender_btn:checked ~ span{
+	color: green;
+}
+*/
+
+
+.a{
+	color: red;
+}
+
+.a.b{
+	color: yellow;
+}
+
+
+
+
+
+
+.list_1 > li{
+
+}

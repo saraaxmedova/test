@@ -1,0 +1,25 @@
+.my_table{
+    width: 500px;
+    height: 600px;
+    border: 1px solid #000;
+    margin: 20px auto;
+}
+td{
+    text-align: center;
+}
+
+.head{
+    background: #9D9D9D;
+}
+.head2{
+    background:#FFF300; 
+}
+.name{
+    background: #FFA6AE;
+}
+.name2{
+    background: #80E2CE;
+}
+.text{
+    background: #AD9AE9;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+
+	<meta charset="utf-8" />
+
+	<title>İlk html dərsim</title>
+
+	<link rel="shortcut icon" href="./assets/images/favicon.png" />
+
+	<!-- <style type="text/css">
+		*{
+			margin:0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body,
+		html{
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+
+	<meta name="viewport" content="width=device-width"  /> -->
+</head>
+<body>
+
+	Name: <input type="text" name="ad" autocomplete="on" required placeholder="Adınızı daxil edin" minlength="3" form="register_form" autofocus /> <br/>
+
+								<!-- get, post -->
+	<form action="index.html" method="post" enctype="multipart/form-data" autocomplete="off" id="register_form" target="_blank" accept-charset="utf-8" >
+		<input type="hidden" name="user_id" value="5">
+
+		
+		
+		Email: <input  type="email" name="email" value="test@go.az" disabled /> <br/>
+		Email2: <input type="email" name="email" value="test@go.az" readonly /> <br/>
+
+		Password: <input autofocus type="password" name="parol" minlength="3" maxlength="10" /> <br/>
+		Age: <input type="number" name="yas" min="0" max="99" /> <br/>
+		
+		<label>
+			Tel: <input type="tel" name="tel" />
+		</label>
+		 <br/>
+		Fb url: <input type="url" name="fb_link" size="60" /> <br/>
+
+		Search: <input type="search" name="axtar" list="user_list" /> 
+			<datalist id="user_list" >
+				<option value="Sara" />
+				<option value="Cavahir" />
+				<option value="Mahirə" />
+				<option value="İbrahim" />
+				<option value="Aydın" />
+			</datalist>
+		<br/>
+
+		File: <input type="file" accept="image/*" multiple name="my_img" /> <br/>
+
+		City: 
+		<!-- <select name="city" multiple>
+			<option value="1">Baki</option>
+			<option value="2">Gence</option>
+			<option value="3">Sumqayit</option>
+		</select>  -->
+
+		<select name="city" >
+			<optgroup label="Azerbaycan">
+				<option value="1">Baki</option>
+				<option value="2">Gence</option>
+				<option value="3" >Sumqayit</option>
+			</optgroup>
+			<optgroup label="Turkiye">
+				<option value="4">Istanbul</option>
+				<option value="5">Izmir</option>
+				<option value="6" selected>Ankara</option>
+			</optgroup>
+		</select> 
+		<br/>
+
+		<fieldset style="width: 200px;">
+			<legend>Gender:</legend>
+			Male: <input type="radio" name="gender" checked value="1" /> <br/>
+			Female: <input type="radio" name="gender" value="2" />
+		</fieldset>
+		 <br/>
+
+		Languages: <br/>
+		<label>
+			Az: <input type="checkbox" name="lang[1]" checked value="1" /> 
+		</label>
+		<br/>
+		<label for="female">
+			En:
+		</label>
+		 <input id="female"  type="checkbox" name="lang[2]" value="2" /> <br/>
+		Ru: <input type="checkbox" name="lang[3]" value="3" /> <br/>
+
+		About: <textarea name="about" cols="60" rows="5"></textarea> <br/>
+
+		Birthday: <input type="datetime-local" name="birthday" /><br/>
+		Date: <input type="date" name="date" /><br/>
+		Time: <input type="time" name="time" /><br/>
+
+		Range: <input type="range" name="range" min="100" value="90000" max="10000"> <br/>
+
+		Color: <input type="color" name="color" > <br/>
+
+		<hr/>
+
+		<input type="reset" name="reset"  > 
+		<input type="submit" name="submit" value="Submit" > 
+		<input type="button" name="btn" value="Button" >
+
+
+		<hr/>
+
+		<button type="reset" name="reset">Reset</button>
+		<button type="submit" name="reset">Submit</button>
+		<button type="button" name="btn">Button 1</button>
+		<button >Button 2</button>
+	</form>
+
+	<button >Button 3</button>
+
+	<!-- <form action="" method="">
+		Num1 : <input type="number" id="num_1" min="1"> 
+		Num2 : <input type="number" id="num_2" min="1">
+		<button type="button">Hesabla</button> 
+		<output for="num_1 num_2" />
+	</form> -->
+
+	<!-- <img src="assets/images/my_img.jpg"
+			srcset="a.jpg 4x,
+					b.jpg 3x,
+					c.jpg 2x,
+					d.jpg 1x
+			" 	
+	 width="400" height="400" />
+
+	 <img src="assets/images/my_img.jpg"
+			srcset="a.jpg 1000w,
+					b.jpg 750w,
+					c.jpg 500w,
+					d.jpg 300w
+			" 	
+	 width="400" height="400" /> -->
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
